@@ -46,7 +46,7 @@ namespace BasicConsoleSample
             FrameGrabber<Face[]> grabber = new FrameGrabber<Face[]>();
 
             // Create Face API Client.
-            FaceServiceClient faceClient = new FaceServiceClient("<subscription key>");
+            FaceServiceClient faceClient = new FaceServiceClient("1690464ccf00496da3f478eeb1a5d68c");
 
             // Set up a listener for when we acquire a new frame.
             grabber.NewFrameProvided += (s, e) =>

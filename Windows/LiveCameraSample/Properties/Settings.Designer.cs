@@ -9,44 +9,20 @@
 //------------------------------------------------------------------------------
 
 namespace LiveCameraSample.Properties {
-
-
+    
+    
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.7.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-
+        
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
-
+        
         public static Settings Default {
             get {
                 return defaultInstance;
             }
         }
-
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string FaceAPIKey {
-            get {
-                return ((string)(this["FaceAPIKey"]));
-            }
-            set {
-                this["FaceAPIKey"] = value;
-            }
-        }
-
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string VisionAPIKey {
-            get {
-                return ((string)(this["VisionAPIKey"]));
-            }
-            set {
-                this["VisionAPIKey"] = value;
-            }
-        }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("Visible")]
@@ -58,7 +34,7 @@ namespace LiveCameraSample.Properties {
                 this["SettingsPanelVisibility"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("00:00:03")]
@@ -70,7 +46,7 @@ namespace LiveCameraSample.Properties {
                 this["AnalysisInterval"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -82,7 +58,7 @@ namespace LiveCameraSample.Properties {
                 this["FaceAPICallCount"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0")]
@@ -94,7 +70,7 @@ namespace LiveCameraSample.Properties {
                 this["VisionAPICallCount"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
@@ -106,7 +82,7 @@ namespace LiveCameraSample.Properties {
                 this["AutoStopEnabled"] = value;
             }
         }
-
+        
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("00:05:00")]
@@ -115,10 +91,10 @@ namespace LiveCameraSample.Properties {
                 return ((global::System.TimeSpan)(this["AutoStopTime"]));
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://westus.api.cognitive.microsoft.com/face/v1.0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://westcentralus.api.cognitive.microsoft.com/face/v1.0")]
         public string FaceAPIHost {
             get {
                 return ((string)(this["FaceAPIHost"]));
@@ -127,10 +103,34 @@ namespace LiveCameraSample.Properties {
                 this["FaceAPIHost"] = value;
             }
         }
-
+        
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://westus.api.cognitive.microsoft.com/vision/v1.0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("601df0d7fbff411495fdbf565cf5af1c")]
+        public string FaceAPIKey {
+            get {
+                return ((string)(this["FaceAPIKey"]));
+            }
+            set {
+                this["FaceAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("f5f3d548650c43d18a6a4f6f6392542b")]
+        public string VisionAPIKey {
+            get {
+                return ((string)(this["VisionAPIKey"]));
+            }
+            set {
+                this["VisionAPIKey"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://westcentralus.api.cognitive.microsoft.com/vision/v2.0")]
         public string VisionAPIHost {
             get {
                 return ((string)(this["VisionAPIHost"]));
